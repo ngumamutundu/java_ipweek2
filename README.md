@@ -124,11 +124,11 @@ There are no known bugs in this project.
 
 ## Support and Contact Details
 
-If you need any assistance, have questions, ideas, or concerns, kindly contact me through email: dopiyo@gmail.com. You can also make a contribution to the code or seek assistance for the app/project.
+If you need any assistance, have questions, ideas, or concerns, kindly contact me through email: mutundu.nguma@gmail.com . You can also make a contribution to the code or seek assistance for the app/project.
 
 **GitHub URL Link**
 
-To view the project, visit the GitHub repository:(https://github.com/dopiyo85/JavaSparkWeekTwoIPHeroSquad.git)
+To view the project, visit the GitHub repository:https://github.com/ngumamutundu/java_ipweek2.git
 
 ## License
 
