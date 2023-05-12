@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="Adding README file" />
+    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="Correction done on README file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,12 +137,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683873268588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correction done on README file">
+      <created>1683873355788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683873355788</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating Hero squad App" />
     <MESSAGE value="Adding README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding README file" />
+    <MESSAGE value="Correction done on README file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction done on README file" />
   </component>
 </project>

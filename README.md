@@ -78,6 +78,8 @@ When the player initiates the mission
 Then the player receives mission details and objectives
 And the squad struggles in battles and fails to complete the objectives
 And the player receives a failure message
+## Live Link
+https://ngumamutundu.github.io/java_ipweek2/
 
 ## Setup/Installation Requirements
 
