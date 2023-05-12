@@ -1,6 +1,7 @@
 package org.javaipweek2.app.model;
 
 public class Hero {
+    private int id;
     private String name;
     private int age;
     private String specialPower;
@@ -14,6 +15,14 @@ public class Hero {
     }
 
     // Getter and setter methods
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;

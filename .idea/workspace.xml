@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="Correction done on README file">
+    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="Added git hub live link">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,7 +55,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PeLYWDgD9wGyTAZJKY6bMICmLO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -144,13 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683873355788</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added git hub live link">
+      <created>1683874700672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683874700672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating Hero squad App" />
     <MESSAGE value="Adding README file" />
     <MESSAGE value="Correction done on README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction done on README file" />
+    <MESSAGE value="Added git hub live link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added git hub live link" />
   </component>
 </project>

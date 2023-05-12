@@ -1,5 +1,6 @@
 package org.javaipweek2.app.model;
 public class Squad {
+    private int id;
     private int maxSize;
     private String name;
     private String cause;
@@ -11,6 +12,14 @@ public class Squad {
     }
 
     // Getter and setter methods
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public int getMaxSize() {
         return maxSize;
