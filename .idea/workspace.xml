@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="Added git hub live link">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="add getter and setters, also amended hero and squad by adding id.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,8 @@
     "git-widget-placeholder": "master",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager" selected="Application.App">
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683874700672</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add getter and setters, also amended hero and squad by adding id.">
+      <created>1683895732714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683895732714</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,6 +175,7 @@
     <MESSAGE value="Adding README file" />
     <MESSAGE value="Correction done on README file" />
     <MESSAGE value="Added git hub live link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added git hub live link" />
+    <MESSAGE value="add getter and setters, also amended hero and squad by adding id." />
+    <option name="LAST_COMMIT_MESSAGE" value="add getter and setters, also amended hero and squad by adding id." />
   </component>
 </project>
