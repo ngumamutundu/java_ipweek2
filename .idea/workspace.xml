@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="add getter and setters, also amended hero and squad by adding id.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="amended the javascript code to include the path for squads and heros">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/heroesForm.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squadsForm.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2PeLYWDgD9wGyTAZJKY6bMICmLO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683895732714</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="amending app.java code by adding get for handlers">
+      <created>1684262082756</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684262082756</updated>
+    </task>
+    <task id="LOCAL-00008" summary="amended the javascript code to include the path for squads and heros">
+      <created>1684263454169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684263454169</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +191,8 @@
     <MESSAGE value="Correction done on README file" />
     <MESSAGE value="Added git hub live link" />
     <MESSAGE value="add getter and setters, also amended hero and squad by adding id." />
-    <option name="LAST_COMMIT_MESSAGE" value="add getter and setters, also amended hero and squad by adding id." />
+    <MESSAGE value="amending app.java code by adding get for handlers" />
+    <MESSAGE value="amended the javascript code to include the path for squads and heros" />
+    <option name="LAST_COMMIT_MESSAGE" value="amended the javascript code to include the path for squads and heros" />
   </component>
 </project>
