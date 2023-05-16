@@ -22,6 +22,10 @@ public class App {
     public static void main(String[] args) {
         port(4567);
 
+        get("/", (request, response) -> {
+            return "Hello, world!";
+        });
+
         // Routes for heroes
         path("/heroes", () -> {
             post("", (request, response) -> {
