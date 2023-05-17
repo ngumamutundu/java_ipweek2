@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="amended the javascript code to include the path for squads and heros">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/heroesForm.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squadsForm.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="amended the javascript code to include the path for squads and heros" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
