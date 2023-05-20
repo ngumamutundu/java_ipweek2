@@ -4,27 +4,21 @@ package org.javaipweek2.app;
 import org.javaipweek2.app.model.Hero;
 import org.javaipweek2.app.model.Squad;
 import com.google.gson.Gson;
-import org.javaipweek2.app.model.Hero;
-import org.javaipweek2.app.model.Squad;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import static spark.Spark.*;
 
 public class App {
-    private static List<Hero> heroes = new ArrayList<>();
-    private static List<Squad> squads = new ArrayList<>();
-    private static Gson gson = new Gson();
+    private static final List<Hero> heroes = new ArrayList<>();
+    private static final List<Squad> squads = new ArrayList<>();
+    private static final Gson gson = new Gson();
 
     public static void main(String[] args) {
         port(4567);
 
-        get("/", (request, response) -> {
-            return "Hello, world!";
-        });
+        get("/", (request, response) -> "Hello, world!");
 
         // Routes for heroes
         path("/heroes", () -> {
@@ -84,6 +78,14 @@ public class App {
                 squads.add(squad);
                 return gson.toJson(squad);
             });
+                    // Initialize database connector
+            String databaseConnector = String.valueOf(new DatabaseConnector());
+            try {
+                databaseConnector.wait();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        });
 
             get("", (request, response) -> gson.toJson(squads));
 
@@ -124,8 +126,8 @@ public class App {
                     return "Squad not found";
                 }
             });
-        });
-    }
+        }
+
 
     private static Hero getHeroById(int id) {
         for (Hero hero : heroes) {
