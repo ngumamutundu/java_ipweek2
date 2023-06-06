@@ -1,40 +1,17 @@
 package org.javaipweek2.app.model;
+
+
 public class Squad {
-    private int id;
-    private int maxSize;
-    private String name;
-    private String cause;
+    private  String squad;
+    private  String cause;
+    private  Integer size;
 
-    public Squad(int maxSize, String name, String cause) {
-        this.maxSize = maxSize;
-        this.name = name;
-        this.cause = cause;
+    public String getSquad() {
+        return squad;
     }
 
-    // Getter and setter methods
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getMaxSize() {
-        return maxSize;
-    }
-
-    public void setMaxSize(int maxSize) {
-        this.maxSize = maxSize;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setSquad(String squad) {
+        this.squad = squad;
     }
 
     public String getCause() {
@@ -43,5 +20,29 @@ public class Squad {
 
     public void setCause(String cause) {
         this.cause = cause;
+    }
+
+    public Integer getSize() {
+        return size;
+    }
+
+    public void setSize(Integer size) {
+        this.size = size;
+    }
+
+
+    public Squad(String squad, String cause, Integer size) {
+        this.squad = squad;
+        this.cause = cause;
+        this.size = size;
+    }
+
+    @Override
+    public String toString() {
+        return "Squad{" +
+                "squad='" + squad + '\'' +
+                ", cause='" + cause + '\'' +
+                ", size=" + size +
+                '}';
     }
 }

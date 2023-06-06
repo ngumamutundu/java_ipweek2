@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="amended the javascript code to include the path for squads and heros" />
+    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="amended the javascript code to include the path for squads and heros">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/dao/HeroDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/dao/SquadDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/db/database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assign-squad.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/full-squad.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/landing-page.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/DatabaseConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroesForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-hero.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-squad.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadsForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/all.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -39,6 +65,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +76,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PeLYWDgD9wGyTAZJKY6bMICmLO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -70,9 +97,27 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.javaipweek2.app.App" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.javaipweek2.app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaipweek2.app.Main" />
+      <module name="java_ipweek2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaipweek2.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaipweek2.app.main" />
       <module name="java_ipweek2.main" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.java_ipweek2 [dependencies]" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
