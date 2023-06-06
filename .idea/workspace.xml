@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="amended the javascript code to include the path for squads and heros">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/dao/HeroDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/dao/SquadDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/db/database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assign-squad.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/full-squad.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/landing-page.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/DatabaseConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaipweek2/app/model/Squad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroesForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-hero.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-squad.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadsForm.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/all.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="8ad5d679-e503-4c18-8bb8-f9db45022c85" name="Changes" comment="amended the javascript code to include the path for squads and heros" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
